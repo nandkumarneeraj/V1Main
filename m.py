@@ -379,7 +379,7 @@ def remove_user(message):
 
     else:
 
-        response = "🔐𝐘𝐨𝐮𝐫 𝐤𝐞𝐲 𝐞𝐱𝐩𝐢𝐫𝐞:- @leroxicc ❤️."
+        response = "🔐 𝐤𝐞𝐲 𝐞𝐱𝐩𝐢𝐫𝐞:- @leroxicc ❤️."
 
 
 
@@ -701,19 +701,14 @@ def show_help(message):
 
 💥 /rules : Please Check Before Use !!.
 
-💥 /mylogs : To Check Your Recents Attacks.
-
 💥 /plan : Checkout Our Botnet Rates.
 
-💥 /info : TO Check Your WHOLE INFO.
 
 
 
+Buy From :- @lopi_op_99
 
-
-Buy From :- @leroxicc
-
-Official Channel :- https://t.me/+51D5fgoX2apkN2Q1
+Official Channel :- https://t.me/v2ddos
 '''
 
     for handler in bot.message_handlers:
@@ -744,8 +739,11 @@ def welcome_start(message):
 
     response = f'''❄️ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴅᴅᴏs ʙᴏᴛ, {user_name}! ᴛʜɪs ɪs ʜɪɢʜ ǫᴜᴀʟɪᴛʏ sᴇʀᴠᴇʀ ʙᴀsᴇᴅ ᴅᴅᴏs. ᴛᴏ ɢᴇᴛ ᴀᴄᴄᴇss.
 
-✅ That Was Get Your Access From :- @lopi_op_99 ☠️
+
 🤖 𝙎𝙩𝙖𝙧𝙩 𝘿-𝘿𝙤𝙨 : /help 
+💥 /info : TO Check Your WHOLE INFO.
+✅ That Was Get Your Access From :- @lopi_op_99 ☠️
+
 '''
 
     bot.reply_to(message, response)
@@ -796,11 +794,13 @@ Vip 🌟 :
 
 Pr-ice List💸 :
 
+1 Day--> 25 Rs
+
 4 Day--> 50 Rs
 
-1 Week--> 100 Rs
+1 Week--> 90 Rs
 
-1 Month--> 250 Rs
+1 Month--> 270 Rs
 
 '''
 
