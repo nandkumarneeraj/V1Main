@@ -331,7 +331,7 @@ def get_user_info(message):
 
     remaining_time = get_remaining_approval_time(user_id)
 
-    response = f"👤 Your Info:\n\n🆔 User ID: <code>{user_id}</code>\n📝 Username: {username}\n🔖 Role: {user_role}\n📅 Approval Expiry Date: {user_approval_expiry.get(user_id, 'Not Approved')}\n⏳ Remaining Approval Time: {remaining_time}"
+    response = f"👤 Your Info:\n\n🆔 User ID: <code>{user_id}</code>\n📝 Username: {username}\n🔖 Role: {user_role}\n📅 Approval Expiry Date: {user_approval_expiry.get(user_id, 'Not Approved')}\n⏳ Remaining Approval Time: {remaining_time}\n @nandyadu1c"
 
     bot.reply_to(message, response, parse_mode="HTML")
 
@@ -455,7 +455,7 @@ def clear_users_command(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @lopi_op_99 🔐."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @nandyadu1c 🔐."
 
     bot.reply_to(message, response)
 
@@ -505,7 +505,7 @@ def show_all_users(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @lopi_op_99❄."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @nandyadu1c❄."
 
     bot.reply_to(message, response)
 
@@ -541,7 +541,7 @@ def show_recent_logs(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @lopi_op_99❄."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @nandyadu1c❄."
 
         bot.reply_to(message, response)
 
@@ -559,7 +559,7 @@ def start_attack_reply(message, target, port, time):
 
     
 
-    response = f"{username}, 𝐒𝐚𝐫𝐯𝐚𝐫 𝐊𝐚 𝐌𝐚𝐢𝐲𝐚 𝐂𝐡𝐮𝐝 𝐆𝐚𝐢 𝐆𝐚𝐧𝐝 𝐌𝐚𝐚𝐫 𝐃𝐨 𝐒𝐚𝐛 𝐁𝐚𝐧𝐝 𝐊𝐚🤡🖕🏻\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of :- @lopi_op_99"
+    response = f"{username}, 𝐒𝐚𝐫𝐯𝐚𝐫 𝐊𝐚 𝐌𝐚𝐢𝐲𝐚 𝐂𝐡𝐮𝐝 𝐆𝐚𝐢 𝐆𝐚𝐧𝐝 𝐌𝐚𝐚𝐫 𝐃𝐨 🤡🖕🏻\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of :- @something_u_know"
 
     bot.reply_to(message, response)
 
@@ -641,7 +641,7 @@ def handle_bgmi(message):
 
     else:
 
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. ᴅᴍ ᴛᴏ ʙᴜʏ ᴀᴄᴄᴇss ᴄʟɪᴄᴋ ʜᴇʀᴇ sᴇᴇ ᴅ-ᴅᴏs /plan 1⃣ ᴅᴀʏ ғʀᴇᴇ ᴛʀɪᴀʟ ᴀʟᴏsᴏ ᴀᴠᴀɪʟᴀʙʟᴇ:- @lopi_op_99 🤡")
+        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. ᴅᴍ ᴛᴏ ʙᴜʏ ᴀᴄᴄᴇss ᴄʟɪᴄᴋ ʜᴇʀᴇ sᴇᴇ ᴅ-ᴅᴏs /plan 1⃣ ᴅᴀʏ ғʀᴇᴇ ᴛʀɪᴀʟ ᴀʟᴏsᴏ ᴀᴠᴀɪʟᴀʙʟᴇ:- @nandyadu1c / @something_u_know 🤡")
 
 
 
@@ -701,12 +701,12 @@ def show_help(message):
 
 💥 /rules : Please Check Before Use !!.
 
-💥 /plan : Checkout Our Botnet Rates.
+💥 /plan : Our rates are cheap, you can afford the plans Dm @nandyadu1c.
 
 
 
 
-Buy From :- @lopi_op_99
+Buy From :- @something_u_know / @nandyadu1c
 
 Official Channel :- https://t.me/v2ddos
 '''
@@ -742,7 +742,7 @@ def welcome_start(message):
 
 🤖 𝙎𝙩𝙖𝙧𝙩 𝘿-𝘿𝙤𝙨 : /help 
 💥 /info : TO Check Your WHOLE INFO.
-✅ That Was Get Your Access From :- @lopi_op_99 ☠️
+✅ That Was Get Your Access From :- @something_u_know ☠️
 
 '''
 
@@ -764,7 +764,7 @@ def welcome_rules(message):
 
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
 
-3. MAKE SURE YOU JOINED https://t.me/venomcha7 OTHERWISE NOT WORK
+3. MAKE SURE YOU JOINED https://t.me/v2ddos OTHERWISE NOT WORK
 
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
 
@@ -794,13 +794,13 @@ Vip 🌟 :
 
 Pr-ice List💸 :
 
-1 Day--> 25 Rs
+1 Day--> 40 Rs
 
-4 Day--> 50 Rs
+4 Day--> 100 Rs
 
-1 Week--> 90 Rs
+1 Week--> 200 Rs
 
-1 Month--> 270 Rs
+1 Month--> 700 Rs
 
 '''
 
