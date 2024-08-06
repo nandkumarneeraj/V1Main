@@ -4,8 +4,8 @@ import logging
 from aiogram import Bot
 import asyncio
 
-API_TOKEN = '7464941936:AAEPjKTSCDv8_CD0_AvVBals7zFW9ud5bGI'
-ADMIN_ID = '7451785687'
+API_TOKEN = '7304036541:AAHZq5kVQYqeVmXAd0-wh5pEH9m0q-st-jw'
+ADMIN_ID = '6758082727'
 MAX_RESTARTS = 50
 RESTART_PERIOD = 5  # Seconds
 
@@ -61,4 +61,4 @@ if __name__ == '__main__':
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        logging.info("Zaher script terminated by user.")
+        logging.info("Nand script terminated by user.")
