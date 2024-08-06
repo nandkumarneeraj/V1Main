@@ -17,13 +17,13 @@ keep_alive()
 
 # insert your Telegram bot token here
 
-bot = telebot.TeleBot('6163541367:AAFrJKtTsoU07hvrafhGbIHUI7_4Fu7F_Rg')
+bot = telebot.TeleBot('7304036541:AAHZq5kVQYqeVmXAd0-wh5pEH9m0q-st-jw')
 
 
 
 # Admin user IDs
 
-admin_id = ["6600486066"]
+admin_id = ["6758082727"]
 
 
 
@@ -97,7 +97,7 @@ allowed_user_ids = read_users()
 
 def log_command(user_id, target, port, time):
 
-    admin_id = ["5588464519"]
+    admin_id = ["6758082727"]
 
     user_info = bot.get_chat(user_id)
 
@@ -307,7 +307,7 @@ def add_user(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @lopi_op_99"
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @nandyadu1c"
 
 
 
@@ -379,7 +379,7 @@ def remove_user(message):
 
     else:
 
-        response = "🔐 𝐤𝐞𝐲 𝐞𝐱𝐩𝐢𝐫𝐞:- @leroxicc ❤️."
+        response = "🔐 𝐤𝐞𝐲 𝐞𝐱𝐩𝐢𝐫𝐞:- @nandyadu1c ❤️."
 
 
 
@@ -417,7 +417,7 @@ def clear_logs_command(message):
 
     else:
 
-        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @lopi_op_99❄."
+        response = "𝒀𝒐𝒖 𝒉𝒂𝒗𝒆 𝒏𝒐𝒕 𝒂𝒄𝒄𝒆𝒔𝒔 𝒚𝒆𝒕 𝒈𝒆𝒕 𝒏𝒐𝒘 𝒂𝒄𝒄𝒆𝒔𝒔 𝒇𝒓𝒐𝒎:- @nandyadu1c❄."
 
     bot.reply_to(message, response)
 
